@@ -1,0 +1,25 @@
+#titulo{
+  width:200px;
+  height: 200px;
+  margin: 20px;
+  border: 1px solid black;
+  
+}
+.verde{
+background-color: green;
+}
+.vermelho{
+background-color: red;
+}
+.azul{
+  background-color: blue;
+
+}
+.verde1{
+  background-color: green;
+
+}
+.preto1{
+  background-color: black;
+
+}
