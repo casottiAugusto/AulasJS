@@ -18,12 +18,14 @@ function azul() {
   document.querySelector('#titulo').classList.add('azul');
 }
 function troca(params) {
-  if (document.querySelector('#troca').classList.contains('preto1')) {
-    document.querySelector('#troca').classList.remove('preto1');
-    document.querySelector('#troca').classList.add('verde1');
+  if (document.querySelector('.short').classList.contains('preto1')) {
+    document.querySelector('.short').classList.remove('preto1');
+    document.querySelector('.short').classList.add('verde1');
   }else{
-    document.querySelector('#troca').classList.remove('verde1');
-    document.querySelector('#troca').classList.add('preto1');
+    document.querySelector('.short').classList.remove('verde1');
+    document.querySelector('.short').classList.add('preto1');
   }
+}
+function scrollagem(params) {
   
 }
